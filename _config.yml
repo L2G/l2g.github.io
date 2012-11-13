@@ -1,0 +1,1 @@
+exclude: Gemfile, Gemfile.lock.win32, params.json
