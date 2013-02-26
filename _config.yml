@@ -1,1 +1,1 @@
-exclude: 'Gemfile*', 'params.json'
+exclude: [Gemfile, Gemfile.lock, Gemfile.lock.macosx, Gemfile.lock.win32, params.json]
