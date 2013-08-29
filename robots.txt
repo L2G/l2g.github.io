@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://L2G.github.io/sitemap.xml 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Chef | L2G @ GitHub]]></title>
+  <link href="http://L2G.github.io/blog/categories/chef/atom.xml" rel="self"/>
+  <link href="http://L2G.github.io/"/>
+  <updated>2013-08-29T15:44:07-07:00</updated>
+  <id>http://L2G.github.io/</id>
+  <author>
+    <name><![CDATA[Lawrence Leonard Gilbert]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What the hell am I doing? (February 25, 2013)]]></title>
+    <link href="http://L2G.github.io/blog/2013/02/25/what-the-hell-am-i-doing/"/>
+    <updated>2013-02-25T12:00:00-08:00</updated>
+    <id>http://L2G.github.io/blog/2013/02/25/what-the-hell-am-i-doing</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m doing a lot with <a href="http://www.opscode.com/chef/">Chef</a> these days. I&rsquo;m
+trying to stomp on Windows-related bugs in Chef and one of its supporting gems,
+<a href="https://github.com/L2G/ohai">Ohai</a>.  I&rsquo;ve also forked the <a href="http://community.opscode.com/cookbooks/timezone-ii">timezone
+cookbook</a> to develop it
+further.  To
+test it, I&rsquo;m using <a href="https://github.com/opscode/test-kitchen">test-kitchen</a> along
+with Vagrant boxes built with <a href="https://github.com/opscode/bento">bento</a> (and
+I&rsquo;m building on bento a little in the process).</p>
+
+<p>I have a new Ruby gem called <a href="https://rubygems.org/gems/windowtint">Windowtint</a>
+&mdash; my first official RubyGems-hosted gem. It&rsquo;s meant to abstract the chore of
+supporting so-called ANSI color output on Windows. Most Ruby tools that output
+color tell Windows users just to install
+<a href="https://github.com/adoxa/ansicon">ANSICON</a>, which actually is a great add-on
+because it makes ANSI color available to <em>everything</em> that outputs to the
+command line. Unfortunately, it&rsquo;s a system-level driver that has to be
+copied directly into the Windows system directory, and this is <span lang="de"
+xml:lang="de">verboten</span> in some lab environments (like my employer&rsquo;s) with
+strict IT usage policies. So Windowtint tries to smooth things over in this
+way: it looks for ANSICON or win32console and silently uses those if available,
+but if they aren&rsquo;t, it advises the user to install one.
+(<a href="https://rubygems.org/gems/win32console">win32console</a> is a gem
+and should be installable by anyone.)</p>
+
+<p><a href="https://github.com/archiloque/rest-client">rest-client</a> is a nice little Ruby gem for accessing Web services via HTTP, particularly nice for those using REST. However, the second maintainer seems to have his attention elsewhere these days, so I set up a @rest-client &ldquo;organization&rdquo; to promote the idea of collective maintenance of the project. Now there is a third maintainer who has the blessing of the original author to maintain <a href="https://github.com/rest-client/rest-client">the rest-client repository there</a>.</p>
+
+<p>While researching port knocking, I stumbled upon <a href="http://ingles.homeunix.net/software/ost/">Ostiary</a>.  It uses a client/server protocol that has a very simple design, yet still manages to resist eavesdropping, man-in-the-middle attacks, and replay attacks.  Likewise, its implementation is so simple that it&rsquo;s resistant to denial-of-service and buffer overflow attacks, and lightweight enough that the author has run a client on a Palm handheld and a server on a Macintosh SE/30 (which makes it a pretty mature protocol as well!). I&rsquo;ve created repos for the basic <a href="https://github.com/L2G/ostiary">C server and client</a> and the <a href="https://github.com/L2G/java-ostiary">Java client</a>, and I&rsquo;ve already squashed a bug in the latter.</p>
+
+<p>I&rsquo;ve started a stupid little project called <a href="https://github.com/L2G/rubar">rubar</a> (etymology: &ldquo;Ruby&rdquo; + &ldquo;fubar&rdquo;) that will allow for use of the social network/game <a href="http://fubar.com/">fubar.com</a> from a command-line interface. It is designed to be a tool, not a robot.</p>
+]]></content>
+  </entry>
+  
+</feed>
