@@ -6,13 +6,13 @@ title: Home
 
 Thanks for taking the time to come by. Here I highlight some of the projects I'm working on and most excited about at GitHub.
 
-### What the hell am I doing? (February 17, 2013)
+### What the hell am I doing? (February 25, 2013)
 
 I'm doing a lot with [Chef](http://www.opscode.com/chef/) these days. I'm
 trying to stomp on Windows-related bugs in Chef and one of its supporting gems,
-[Ohai](https://github.com/L2G/ohai).  I'm also forking the [timezone
-cookbook](http://community.opscode.com/cookbooks/timezone) to develop it further
-(look for "timezone-ii", coming soon to an Opscode user community near you).  To
+[Ohai](https://github.com/L2G/ohai).  I've also forked the [timezone
+cookbook](http://community.opscode.com/cookbooks/timezone-ii) to develop it
+further.  To
 test it, I'm using [test-kitchen](https://github.com/opscode/test-kitchen) along
 with Vagrant boxes built with [bento](https://github.com/opscode/bento) (and
 I'm building on bento a little in the process).
