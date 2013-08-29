@@ -4,10 +4,10 @@
 
 url: http://l2g.github.io
 title: L2G @ GitHub
-subtitle: "Geeky things I'm doing here and elsewhere"
+subtitle: "My geeky obsessions of the moment"
 author: Lawrence Leonard Gilbert
 simple_search: http://google.com/search
-description:
+description: "Lawrence Leonard &ldquo;Larry&rdquo; Gilbert and his geeky obsessions of the moment"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-#subscribe_rss: /atom.xml
+subscribe_rss: /atom.xml
 #subscribe_email:
 # RSS feeds can list your email address if you like
 #email:
