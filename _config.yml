@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://l2g.github.io
+title: L2G @ GitHub
+subtitle: "Geeky things I'm doing here and elsewhere"
+author: Lawrence Leonard Gilbert
 simple_search: http://google.com/search
 description:
 
@@ -16,10 +16,10 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
-subscribe_email:
+#subscribe_rss: /atom.xml
+#subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+#email:
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -63,13 +63,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: L2G
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: L2G
 twitter_tweet_button: true
 
 # Google +1
