@@ -1,13 +1,10 @@
 ---
-layout: default
-title: Home
+layout: post
+title: "What the hell am I doing? (February 25, 2013)"
+date: 2013-02-25 12:00
+comments: true
+categories: status Chef Windowtint Ruby-REST-Client Ostiary
 ---
-### Hello!
-
-Thanks for taking the time to come by. Here I highlight some of the projects I'm working on and most excited about at GitHub.
-
-### What the hell am I doing? (February 25, 2013)
-
 I'm doing a lot with [Chef](http://www.opscode.com/chef/) these days. I'm
 trying to stomp on Windows-related bugs in Chef and one of its supporting gems,
 [Ohai](https://github.com/L2G/ohai).  I've also forked the [timezone
@@ -37,7 +34,3 @@ and should be installable by anyone.)
 While researching port knocking, I stumbled upon [Ostiary](http://ingles.homeunix.net/software/ost/).  It uses a client/server protocol that has a very simple design, yet still manages to resist eavesdropping, man-in-the-middle attacks, and replay attacks.  Likewise, its implementation is so simple that it's resistant to denial-of-service and buffer overflow attacks, and lightweight enough that the author has run a client on a Palm handheld and a server on a Macintosh SE/30 (which makes it a pretty mature protocol as well!). I've created repos for the basic [C server and client](https://github.com/L2G/ostiary) and the [Java client](https://github.com/L2G/java-ostiary), and I've already squashed a bug in the latter.
 
 I've started a stupid little project called [rubar](https://github.com/L2G/rubar) (etymology: "Ruby" + "fubar") that will allow for use of the social network/game [fubar.com](http://fubar.com/) from a command-line interface. It is designed to be a tool, not a robot.
-
-### Contact me
-
-Because of the horrific amount of email I receive these days, the "best" way (relatively) to get my attention is by sending me a message on GitHub.
